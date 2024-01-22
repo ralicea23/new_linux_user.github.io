@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Terminal AI // New Linux User</title>
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Rob Alicea" />
+    <meta name="description" content="shellgpt from terminal with API_KEY" />
+    <link rel="stylesheet" href="/css/main.min.21a668a1314456980ad0739cf44f89481addc1f311e92a94cf90ef308a096e17.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Terminal AI"/>
+<meta name="twitter:description" content="shellgpt from terminal with API_KEY"/>
+
+    <meta property="og:title" content="Terminal AI" />
+<meta property="og:description" content="shellgpt from terminal with API_KEY" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://new-linux-user.streamers.city/blog/shell_gpt/" /><meta property="article:section" content="Blog" />
+<meta property="article:published_time" content="2024-01-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-14T00:00:00+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://new-linux-user.streamers.city/"><img class="app-header-avatar" src="/img/logo.svg" alt="Rob Alicea" /></a>
+      <span class="app-header-title">New Linux User</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/">Blog</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/news/">News</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/projects/">Projects</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+      </nav>
+      <p>Linux from a newcomer&#39;s standpoint</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/ralicea23" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Terminal AI</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 14, 2024
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://new-linux-user.streamers.city/tags/artificial-intelligence/">artificial-intelligence</a>
+              <a class="tag" href="https://new-linux-user.streamers.city/tags/ubuntu/">ubuntu</a>
+              <a class="tag" href="https://new-linux-user.streamers.city/tags/command-line/">command-line</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<p><img src="/img/chat_gpt.jpg" alt="/img/chat_gpt.jpg" title="/img/chat_gpt.jpg" /></p>
+</div>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+ShellGPT
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p><code class="verbatim">Shell-GPT</code> brings the magic of <code class="verbatim">Chat-GPT</code> into your terminal, offering a delightful boost to your productivity. It&#39;s quite remarkable to bypass the usual <code class="verbatim">Google</code> searches and other search engines by having this capability embedded directly in your terminal. For this initiative, I&#39;m utilizing <code class="verbatim">Proxmox</code> with an Ubuntu 23.04 container, and the installation process is a breeze!</p>
+<p>
+I explored numerous tutorials and faced challenges with those that involved setting up <code class="verbatim">Shell-GPT</code> in a virtual environment, especially when trying to get it up and running again after a system reboot.</p>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+Step 1: Install Python and PIP on Your Computer
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<p>ShellGPT, like many AI-driven applications, relies on Python. While Python often comes pre-installed on Linux systems, it&#39;s a good idea to verify its presence. To do this, simply check the installed version of Python.</p>
+<p>
+To check your Python version, open a Terminal and type:</p>
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">python3 --version</code></pre>
+</div>
+<p>
+If you see a version number, Python is installed and you&#39;re ready to proceed. If not, you&#39;ll need to install Python on your Ubuntu system before you can continue with the setup. Once Python is up and running, the next step is to install PIP, which is Python&#39;s own package manager and is essential for managing Python packages.</p>
+<p>
+Even though PIP typically comes with Python, it&#39;s wise to confirm its installation. To check if PIP is installed, run:</p>
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">pip --version</code></pre>
+</div>
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">sudo apt install python3-pip</code></pre>
+</div>
+<p>If you&#39;re encountering an error when trying to install PIP with the command provided, there is a steps you can take to troubleshoot and resolve the issue:</p>
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">error: externally-managed-environment
+
+× This environment is externally managed
+╰─&gt; To install Python packages system-wide, try apt install python3-xyz, where xyz is the package you are trying to install.
+
+    If you wish to install a non-Debian-packaged Python package, create a virtual environment using python3 -m venv path/to/venv. Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application, it may be easiest to use pipx install xyz, which will manage a virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+
+hint: See PEP 668 for the detailed specification.</code></pre>
+</div>
+<p>To pass this error I used this:</p>
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED</code></pre>
+</div>
+<p>try to install pip again…</p>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+Step 2: Install Shell-GPT
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">pip install shell-gpt --user</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+Step 3: Getting API_Key
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<p><img src="/img/openai.png" alt="/img/openai.png" title="/img/openai.png" /></p>
+</div>
+<p>Go to <a href="https://openai.com/">openai</a> website and create a an API_KEY.</p>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+Step 4: Adding the API_Key
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">cd .local/bin
+python3 sgpt
+# add the API_KEY after the prompt</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+Step 5: Change PATH
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<div class="src src-c bash">
+<pre tabindex="0"><code class="language-c bash" data-lang="c bash">sudo nano ~/.bashrc
+# add a line at the end of the file
+export PATH=$PATH:~/.local/bin:/usr/bin/python3
+
+source ~/.bashrc</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-2">
+<h2 id="headline-7">
+Conclusion
+</h2>
+<div id="outline-text-headline-7" class="outline-text-2">
+<p>At this point <code class="verbatim">ShellGPT</code> is ready to be use. Just simply type: sgpt –help to learn about how to use it. An example prompt could be:</p>
+<pre class="example">
+sgpt --chat search &#34;search information about the largest moon of Jupiter&#34;
+
+The largest moon of Jupiter is Ganymede. It is not only the largest moon of Jupiter but also the largest moon in our solar system. Ganymede is even bigger than the planet Mercury. It was discovered by Galileo Galilei in 1610, along with three other large Jovian moons: Io, Europa, and Callisto, collectively known as the Galilean moons.
+
+Ganymede is unique because it has its own magnetic field, which is something very rare for a moon. It has a diameter of about 5,268 kilometers (3,273 miles) and is primarily composed of water ice and silicate rock. Ganymede orbits Jupiter every seven days and is one of the few moons in the solar system known to have a significant atmosphere, which includes oxygen, although it&#39;s too thin to support human life.
+
+NASA&#39;s Juno spacecraft, which is currently orbiting Jupiter, has provided some of the most detailed images of Ganymede. Additionally, the European Space Agency (ESA) is planning a mission called JUpiter ICy moons Explorer (JUICE), set to launch in 2023, which will study Ganymede in more detail, along with Europa and Callisto.
+</pre>
+<p>
+<strong>Have fun!</strong></p>
+</div>
+</div>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

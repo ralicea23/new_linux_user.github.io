@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflow on New Linux User</title>
+    <link>https://new-linux-user.streamers.city/tags/workflow/</link>
+    <description>Recent content in workflow on New Linux User</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://new-linux-user.streamers.city/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doom Emacs</title>
+      <link>https://new-linux-user.streamers.city/blog/emacs/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://new-linux-user.streamers.city/blog/emacs/</guid>
+      <description>Introduction This is my first blog about Emacs, It has been quite a challenge for me like everything in Linux. Since I moved from Windows OS for good, I&amp;#39;ve experienced a lot of trouble on Linux. I started with Manjaro (a very bad choice to start experimenting) and it was a mess, it was 2016 and I hardly found documentation, tutorials or any help about Manjaro. The reason I choose Manjaro was about ego, looking information about Linux in YouTube in the first video I watched the guy was using Manjaro and said that Manjaro was for smart people and was bashing Ubuntu.</description>
+    </item>
+    
+  </channel>
+</rss>
