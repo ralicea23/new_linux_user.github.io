@@ -5,26 +5,7 @@
     <link>https://new-linux-user.streamers.city/blog/</link>
     <description>Recent content in Blogs on New Linux User</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://new-linux-user.streamers.city/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Terminal AI</title>
-      <link>https://new-linux-user.streamers.city/blog/shell_gpt/</link>
-      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://new-linux-user.streamers.city/blog/shell_gpt/</guid>
-      <description>ShellGPT Shell-GPT brings the magic of Chat-GPT into your terminal, offering a delightful boost to your productivity. It&amp;#39;s quite remarkable to bypass the usual Google searches and other search engines by having this capability embedded directly in your terminal. For this initiative, I&amp;#39;m utilizing Proxmox with an Ubuntu 23.04 container, and the installation process is a breeze!
-I explored numerous tutorials and faced challenges with those that involved setting up Shell-GPT in a virtual environment, especially when trying to get it up and running again after a system reboot.</description>
-    </item>
-    
-    <item>
-      <title>Ditch Google Search</title>
-      <link>https://new-linux-user.streamers.city/blog/searx_ng/</link>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://new-linux-user.streamers.city/blog/searx_ng/</guid>
-      <description>SearXNG In today&amp;#39;s modern world, internet searches have become an integral part of our daily routines. I dedicate a significant amount of time each day to my computer, where I engage in tasks such as gathering information for my blogs, conducting research, and enhancing my own knowledge. However, like many others, I share concerns regarding the privacy of our online searches, suspecting that major tech giants like Google, Microsoft, or Yahoo might be monitoring our activities.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://new-linux-user.streamers.city/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs Exports to PDF</title>
       <link>https://new-linux-user.streamers.city/blog/org_mode_export/</link>

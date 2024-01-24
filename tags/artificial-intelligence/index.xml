@@ -8,10 +8,10 @@
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://new-linux-user.streamers.city/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terminal AI</title>
-      <link>https://new-linux-user.streamers.city/blog/shell_gpt/</link>
+      <link>https://new-linux-user.streamers.city/projects/shell_gpt/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://new-linux-user.streamers.city/blog/shell_gpt/</guid>
+      <guid>https://new-linux-user.streamers.city/projects/shell_gpt/</guid>
       <description>ShellGPT Shell-GPT brings the magic of Chat-GPT into your terminal, offering a delightful boost to your productivity. It&amp;#39;s quite remarkable to bypass the usual Google searches and other search engines by having this capability embedded directly in your terminal. For this initiative, I&amp;#39;m utilizing Proxmox with an Ubuntu 23.04 container, and the installation process is a breeze!
 I explored numerous tutorials and faced challenges with those that involved setting up Shell-GPT in a virtual environment, especially when trying to get it up and running again after a system reboot.</description>
     </item>

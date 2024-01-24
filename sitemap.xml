@@ -5,25 +5,25 @@
     <loc>https://new-linux-user.streamers.city/tags/artificial-intelligence/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://new-linux-user.streamers.city/blog/</loc>
-    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://new-linux-user.streamers.city/tags/command-line/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://new-linux-user.streamers.city/projects/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://new-linux-user.streamers.city/tags/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://new-linux-user.streamers.city/blog/shell_gpt/</loc>
+    <loc>https://new-linux-user.streamers.city/projects/shell_gpt/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/tags/ubuntu/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://new-linux-user.streamers.city/blog/searx_ng/</loc>
+    <loc>https://new-linux-user.streamers.city/projects/searx_ng/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/tags/open-source/</loc>
@@ -37,6 +37,9 @@
   </url><url>
     <loc>https://new-linux-user.streamers.city/tags/self-hosted/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://new-linux-user.streamers.city/blog/</loc>
+    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/tags/doom-emacs/</loc>
     <lastmod>2024-01-10T00:00:00+00:00</lastmod>
@@ -129,9 +132,6 @@
     <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/tags/hugo/</loc>
-    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new-linux-user.streamers.city/projects/</loc>
     <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://new-linux-user.streamers.city/projects/pihole/</loc>
